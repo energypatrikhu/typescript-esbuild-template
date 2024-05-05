@@ -1,0 +1,13 @@
+{
+	"name": "typescript-template",
+	"version": "0.0.1",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "tsc",
+		"start": "node build/index.js"
+	},
+	"devDependencies": {
+		"@types/node": "^20.12.8",
+		"typescript": "^5.4.5"
+	}
+}
