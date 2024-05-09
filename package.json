@@ -3,11 +3,12 @@
 	"version": "0.0.1",
 	"main": "build/index.js",
 	"scripts": {
-		"build": "tsc",
+		"build": "node esbuild.config.mjs",
 		"start": "node build/index.js"
 	},
 	"devDependencies": {
 		"@types/node": "^20.12.8",
+		"esbuild": "^0.21.1",
 		"typescript": "^5.4.5"
 	}
 }
