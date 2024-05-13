@@ -1,14 +1,14 @@
 {
-	"name": "typescript-template",
-	"version": "0.0.1",
+	"name": "typescript-esbuild-template",
+	"version": "0.0.2",
 	"main": "build/index.js",
 	"scripts": {
-		"build": "node esbuild.config.mjs",
+		"build": "esbuild-wrapper",
 		"start": "node build/index.js"
 	},
 	"devDependencies": {
+		"@energypatrikhu/esbuild-wrapper": "^0.0.2",
 		"@types/node": "^20.12.8",
-		"esbuild": "^0.21.1",
 		"typescript": "^5.4.5"
 	}
 }
