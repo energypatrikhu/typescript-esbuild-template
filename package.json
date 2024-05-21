@@ -7,7 +7,7 @@
 		"start": "node build/index.js"
 	},
 	"devDependencies": {
-		"@energypatrikhu/esbuild-wrapper": "^0.0.2",
+		"@energypatrikhu/esbuild-wrapper": "latest",
 		"@types/node": "^20.12.8",
 		"typescript": "^5.4.5"
 	}
