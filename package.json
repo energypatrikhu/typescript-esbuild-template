@@ -1,7 +1,7 @@
 {
   "name": "typescript-esbuild-template",
   "version": "0.0.0",
-  "main": "build/index.js",
+  "main": "build/index.cjs",
   "scripts": {
     "build": "esbuild-wrapper",
     "start": "node build/index.js"
