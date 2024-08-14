@@ -1,14 +1,14 @@
 {
-	"name": "typescript-esbuild-template",
-	"version": "0.0.2",
-	"main": "build/index.js",
-	"scripts": {
-		"build": "esbuild-wrapper",
-		"start": "node build/index.js"
-	},
-	"devDependencies": {
-		"@energypatrikhu/esbuild-wrapper": "latest",
-		"@types/node": "^20.12.8",
-		"typescript": "^5.4.5"
-	}
+  "name": "typescript-esbuild-template",
+  "version": "0.0.0",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "esbuild-wrapper",
+    "start": "node build/index.js"
+  },
+  "devDependencies": {
+    "@energypatrikhu/esbuild-wrapper": "latest",
+    "@types/node": "^20.12.8",
+    "typescript": "^5.4.5"
+  }
 }
