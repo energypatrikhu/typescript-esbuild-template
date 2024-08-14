@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@energypatrikhu/esbuild-wrapper": "latest",
-    "@types/node": "^20.12.8",
-    "typescript": "^5.4.5"
+    "@types/node": "latest",
+    "typescript": "latest"
   }
 }
